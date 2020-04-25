@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA864BB024546CC4002C81B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA864BAF24546CC4002C81B3 /* AppDelegate.swift */; };
+		DA864BB224546CC4002C81B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA864BB124546CC4002C81B3 /* SceneDelegate.swift */; };
+		DA864BB524546CC4002C81B3 /* TaxiApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA864BB324546CC4002C81B3 /* TaxiApp.xcdatamodeld */; };
+		DA864BB724546CC5002C81B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA864BB624546CC5002C81B3 /* ContentView.swift */; };
+		DA864BB924546CEA002C81B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA864BB824546CEA002C81B3 /* Assets.xcassets */; };
+		DA864BBC24546CEA002C81B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA864BBB24546CEA002C81B3 /* Preview Assets.xcassets */; };
+		DA864BBF24546CEA002C81B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA864BBD24546CEA002C81B3 /* LaunchScreen.storyboard */; };
+		DA864BCA24546CEB002C81B3 /* TaxiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA864BC924546CEB002C81B3 /* TaxiAppTests.swift */; };
+		DA864BD524546CEB002C81B3 /* TaxiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA864BD424546CEB002C81B3 /* TaxiAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA864BC624546CEB002C81B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA864BA424546CC4002C81B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA864BAB24546CC4002C81B3;
+			remoteInfo = TaxiApp;
+		};
+		DA864BD124546CEB002C81B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA864BA424546CC4002C81B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA864BAB24546CC4002C81B3;
+			remoteInfo = TaxiApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA864BAC24546CC4002C81B3 /* TaxiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA864BAF24546CC4002C81B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA864BB124546CC4002C81B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DA864BB424546CC4002C81B3 /* TaxiApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaxiApp.xcdatamodel; sourceTree = "<group>"; };
+		DA864BB624546CC5002C81B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA864BB824546CEA002C81B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA864BBB24546CEA002C81B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA864BBE24546CEA002C81B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA864BC024546CEA002C81B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA864BC524546CEB002C81B3 /* TaxiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA864BC924546CEB002C81B3 /* TaxiAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiAppTests.swift; sourceTree = "<group>"; };
+		DA864BCB24546CEB002C81B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA864BD024546CEB002C81B3 /* TaxiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA864BD424546CEB002C81B3 /* TaxiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiAppUITests.swift; sourceTree = "<group>"; };
+		DA864BD624546CEB002C81B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA864BA924546CC4002C81B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA864BC224546CEB002C81B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA864BCD24546CEB002C81B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA864BA324546CC4002C81B3 = {
+			isa = PBXGroup;
+			children = (
+				DA864BAE24546CC4002C81B3 /* TaxiApp */,
+				DA864BC824546CEB002C81B3 /* TaxiAppTests */,
+				DA864BD324546CEB002C81B3 /* TaxiAppUITests */,
+				DA864BAD24546CC4002C81B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA864BAD24546CC4002C81B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA864BAC24546CC4002C81B3 /* TaxiApp.app */,
+				DA864BC524546CEB002C81B3 /* TaxiAppTests.xctest */,
+				DA864BD024546CEB002C81B3 /* TaxiAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA864BAE24546CC4002C81B3 /* TaxiApp */ = {
+			isa = PBXGroup;
+			children = (
+				DA864BAF24546CC4002C81B3 /* AppDelegate.swift */,
+				DA864BB124546CC4002C81B3 /* SceneDelegate.swift */,
+				DA864BB624546CC5002C81B3 /* ContentView.swift */,
+				DA864BB824546CEA002C81B3 /* Assets.xcassets */,
+				DA864BBD24546CEA002C81B3 /* LaunchScreen.storyboard */,
+				DA864BC024546CEA002C81B3 /* Info.plist */,
+				DA864BB324546CC4002C81B3 /* TaxiApp.xcdatamodeld */,
+				DA864BBA24546CEA002C81B3 /* Preview Content */,
+			);
+			path = TaxiApp;
+			sourceTree = "<group>";
+		};
+		DA864BBA24546CEA002C81B3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DA864BBB24546CEA002C81B3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA864BC824546CEB002C81B3 /* TaxiAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA864BC924546CEB002C81B3 /* TaxiAppTests.swift */,
+				DA864BCB24546CEB002C81B3 /* Info.plist */,
+			);
+			path = TaxiAppTests;
+			sourceTree = "<group>";
+		};
+		DA864BD324546CEB002C81B3 /* TaxiAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA864BD424546CEB002C81B3 /* TaxiAppUITests.swift */,
+				DA864BD624546CEB002C81B3 /* Info.plist */,
+			);
+			path = TaxiAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA864BAB24546CC4002C81B3 /* TaxiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA864BD924546CEB002C81B3 /* Build configuration list for PBXNativeTarget "TaxiApp" */;
+			buildPhases = (
+				DA864BA824546CC4002C81B3 /* Sources */,
+				DA864BA924546CC4002C81B3 /* Frameworks */,
+				DA864BAA24546CC4002C81B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaxiApp;
+			productName = TaxiApp;
+			productReference = DA864BAC24546CC4002C81B3 /* TaxiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA864BC424546CEB002C81B3 /* TaxiAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA864BDC24546CEB002C81B3 /* Build configuration list for PBXNativeTarget "TaxiAppTests" */;
+			buildPhases = (
+				DA864BC124546CEB002C81B3 /* Sources */,
+				DA864BC224546CEB002C81B3 /* Frameworks */,
+				DA864BC324546CEB002C81B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA864BC724546CEB002C81B3 /* PBXTargetDependency */,
+			);
+			name = TaxiAppTests;
+			productName = TaxiAppTests;
+			productReference = DA864BC524546CEB002C81B3 /* TaxiAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA864BCF24546CEB002C81B3 /* TaxiAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA864BDF24546CEB002C81B3 /* Build configuration list for PBXNativeTarget "TaxiAppUITests" */;
+			buildPhases = (
+				DA864BCC24546CEB002C81B3 /* Sources */,
+				DA864BCD24546CEB002C81B3 /* Frameworks */,
+				DA864BCE24546CEB002C81B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA864BD224546CEB002C81B3 /* PBXTargetDependency */,
+			);
+			name = TaxiAppUITests;
+			productName = TaxiAppUITests;
+			productReference = DA864BD024546CEB002C81B3 /* TaxiAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA864BA424546CC4002C81B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Tello;
+				TargetAttributes = {
+					DA864BAB24546CC4002C81B3 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					DA864BC424546CEB002C81B3 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = DA864BAB24546CC4002C81B3;
+					};
+					DA864BCF24546CEB002C81B3 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = DA864BAB24546CC4002C81B3;
+					};
+				};
+			};
+			buildConfigurationList = DA864BA724546CC4002C81B3 /* Build configuration list for PBXProject "TaxiApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA864BA324546CC4002C81B3;
+			productRefGroup = DA864BAD24546CC4002C81B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA864BAB24546CC4002C81B3 /* TaxiApp */,
+				DA864BC424546CEB002C81B3 /* TaxiAppTests */,
+				DA864BCF24546CEB002C81B3 /* TaxiAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA864BAA24546CC4002C81B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA864BBF24546CEA002C81B3 /* LaunchScreen.storyboard in Resources */,
+				DA864BBC24546CEA002C81B3 /* Preview Assets.xcassets in Resources */,
+				DA864BB924546CEA002C81B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA864BC324546CEB002C81B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA864BCE24546CEB002C81B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA864BA824546CC4002C81B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA864BB024546CC4002C81B3 /* AppDelegate.swift in Sources */,
+				DA864BB524546CC4002C81B3 /* TaxiApp.xcdatamodeld in Sources */,
+				DA864BB724546CC5002C81B3 /* ContentView.swift in Sources */,
+				DA864BB224546CC4002C81B3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA864BC124546CEB002C81B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA864BCA24546CEB002C81B3 /* TaxiAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA864BCC24546CEB002C81B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA864BD524546CEB002C81B3 /* TaxiAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA864BC724546CEB002C81B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA864BAB24546CC4002C81B3 /* TaxiApp */;
+			targetProxy = DA864BC624546CEB002C81B3 /* PBXContainerItemProxy */;
+		};
+		DA864BD224546CEB002C81B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA864BAB24546CC4002C81B3 /* TaxiApp */;
+			targetProxy = DA864BD124546CEB002C81B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA864BBD24546CEA002C81B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA864BBE24546CEA002C81B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA864BD724546CEB002C81B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA864BD824546CEB002C81B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA864BDA24546CEB002C81B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TaxiApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 524ZVN5P7L;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TaxiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tello.TaxiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA864BDB24546CEB002C81B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TaxiApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 524ZVN5P7L;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TaxiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tello.TaxiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA864BDD24546CEB002C81B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 524ZVN5P7L;
+				INFOPLIST_FILE = TaxiAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tello.TaxiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxiApp.app/TaxiApp";
+			};
+			name = Debug;
+		};
+		DA864BDE24546CEB002C81B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 524ZVN5P7L;
+				INFOPLIST_FILE = TaxiAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tello.TaxiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxiApp.app/TaxiApp";
+			};
+			name = Release;
+		};
+		DA864BE024546CEB002C81B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 524ZVN5P7L;
+				INFOPLIST_FILE = TaxiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tello.TaxiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaxiApp;
+			};
+			name = Debug;
+		};
+		DA864BE124546CEB002C81B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 524ZVN5P7L;
+				INFOPLIST_FILE = TaxiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tello.TaxiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaxiApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA864BA724546CC4002C81B3 /* Build configuration list for PBXProject "TaxiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA864BD724546CEB002C81B3 /* Debug */,
+				DA864BD824546CEB002C81B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA864BD924546CEB002C81B3 /* Build configuration list for PBXNativeTarget "TaxiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA864BDA24546CEB002C81B3 /* Debug */,
+				DA864BDB24546CEB002C81B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA864BDC24546CEB002C81B3 /* Build configuration list for PBXNativeTarget "TaxiAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA864BDD24546CEB002C81B3 /* Debug */,
+				DA864BDE24546CEB002C81B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA864BDF24546CEB002C81B3 /* Build configuration list for PBXNativeTarget "TaxiAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA864BE024546CEB002C81B3 /* Debug */,
+				DA864BE124546CEB002C81B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DA864BB324546CC4002C81B3 /* TaxiApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DA864BB424546CC4002C81B3 /* TaxiApp.xcdatamodel */,
+			);
+			currentVersion = DA864BB424546CC4002C81B3 /* TaxiApp.xcdatamodel */;
+			path = TaxiApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DA864BA424546CC4002C81B3 /* Project object */;
+}
