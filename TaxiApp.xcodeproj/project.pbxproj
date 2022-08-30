@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A704112C28BD92FA008C05FC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A704112B28BD92FA008C05FC /* Home.swift */; };
 		A704112E28BD954B008C05FC /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A704112D28BD954B008C05FC /* Loader.swift */; };
+		A704113028BD9642008C05FC /* Booked.swift in Sources */ = {isa = PBXBuildFile; fileRef = A704112F28BD9642008C05FC /* Booked.swift */; };
 		DA864BB024546CC4002C81B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA864BAF24546CC4002C81B3 /* AppDelegate.swift */; };
 		DA864BB224546CC4002C81B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA864BB124546CC4002C81B3 /* SceneDelegate.swift */; };
 		DA864BB524546CC4002C81B3 /* TaxiApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA864BB324546CC4002C81B3 /* TaxiApp.xcdatamodeld */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		A704112B28BD92FA008C05FC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		A704112D28BD954B008C05FC /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		A704112F28BD9642008C05FC /* Booked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booked.swift; sourceTree = "<group>"; };
 		DA864BAC24546CC4002C81B3 /* TaxiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA864BAF24546CC4002C81B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA864BB124546CC4002C81B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				DA864BAF24546CC4002C81B3 /* AppDelegate.swift */,
 				DA864BB124546CC4002C81B3 /* SceneDelegate.swift */,
 				A704112B28BD92FA008C05FC /* Home.swift */,
+				A704112F28BD9642008C05FC /* Booked.swift */,
 				A704112D28BD954B008C05FC /* Loader.swift */,
 				DA864BB624546CC5002C81B3 /* ContentView.swift */,
 				DA864BB824546CEA002C81B3 /* Assets.xcassets */,
@@ -282,6 +285,7 @@
 				A704112C28BD92FA008C05FC /* Home.swift in Sources */,
 				DA864BB724546CC5002C81B3 /* ContentView.swift in Sources */,
 				DA864BB224546CC4002C81B3 /* SceneDelegate.swift in Sources */,
+				A704113028BD9642008C05FC /* Booked.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
